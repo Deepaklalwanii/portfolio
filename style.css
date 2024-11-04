@@ -1,0 +1,121 @@
+    *{
+        margin: 0;
+        padding: 0;
+        font-family: 'Gilroy-Light', sans-serif;
+    }
+    body{
+        background-color: #DAC2A6;
+    }
+
+    .bold-highlight{
+        font-weight: bold;
+    }
+    .name-logo h4{
+        font-size: 18px;
+        font-weight: 100;
+    }
+
+    .nav-bar{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .nav-wrapper{
+
+        align-items: center;
+        margin: 10px;
+        background-color: #414A39;
+        color: #AF9C7A;
+        border-radius: 20px;
+        padding: 20px;
+    }
+
+    .nav-options ul{
+        display: flex;
+        gap: 50px;
+        list-style: none;
+    }
+
+    .nav-options li{
+        cursor: pointer;
+    }
+
+
+    /* ------------------nav-ends-here----------------- */
+
+    .hero{
+        display: flex;
+        border-radius: 20px;
+        padding: 0 20px 0 20px;
+        gap: 20px;
+    }
+
+    .left-col{
+        width: 70%;
+        border-radius: 12px;
+        background-color: #414a398f;
+    }
+
+    .right-col{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        width: 30%;
+
+    }
+
+    .projects{
+        background-color: #414A39;
+        font-size: 14px;
+        border-radius: 12px;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        color: #AF9C7A;
+        padding-top: 20px;
+        padding-left: 20px;
+        padding-right: 20px;
+        font-family: 'Gilroy-Heavy', sans-serif;
+    }
+
+    .pj-div{
+        padding-bottom: 20px;
+        border-bottom: 1px solid #AF9C7A;
+    } 
+
+    .pj-div h3{
+        cursor: pointer;
+    }
+
+    .pj-img{
+        align-self: center;
+    }
+
+    .pj-img img{
+        width: 300px;
+        height: 150px;
+        object-fit: cover;
+        border-radius: 12px;
+        align-items: center;   
+    }
+
+    .links{
+        display: flex;
+        padding: 20px;
+        border-radius: 12px;
+        color: #AF9C7A;
+        background-color: #414A39;
+        justify-content: center;
+    }
+
+    .links ul{
+        display: flex;
+        gap: 65px;
+        text-align: center;
+        align-items: center;
+    }
+
+    .links li{
+        list-style: none;
+        cursor: pointer;
+    }
