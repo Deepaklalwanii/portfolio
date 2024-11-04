@@ -120,6 +120,11 @@
         cursor: pointer;
     }
 
+    .links a{
+        text-decoration: none;
+        color: #AF9C7A;
+    }
+
 
     /* ---------------right-side-begins-from-here-------------------------------------- */
 
