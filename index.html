@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Deepak-lalwani</title>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
     <link href="https://fonts.cdnfonts.com/css/gilroy-bold" rel="stylesheet">
 </head>
@@ -25,8 +26,16 @@
         </header>
         <section class="banner-section">
             <div class="hero">
-                <div class="left-col"></div>
-                <div class="right-col">
+                <div class="left-col">
+                    <div class="lft-box-one">
+                        <div class="flower-img"><img src="images/Vector.svg"></div>
+                        <div><h3>Reviving the Art of<span class="light-highlight"> Web Development</span> through Timeless Craft</h3></div>
+                    </div>
+                    <div class="profile">
+                        <img src="images/PORTRAIT.png">
+                    </div>
+                </div>
+                <div data-aos="zoom-in" data-aos-duration="700" class="right-col">
                     <div class="projects">
                         <div class="pj-img">
                         <img src="images/projects.jpg">
@@ -40,7 +49,7 @@
                         <div class="pj-div">
                         <a><h3>Criclive</h3></a>
                         </div>
-                        <div class="pj-div">
+                        <div style="border-bottom: none;" class="pj-div">
                         <a><h3>Guessing Game</h3></a>
                         </div>
                     </div>
@@ -55,5 +64,9 @@
             </div>
         </section>
     </section>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
 </html>
