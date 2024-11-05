@@ -45,13 +45,14 @@
 
     .hero{
         display: flex;
-        border-radius: 20px;
-        padding: 0 20px 0 20px;
         gap: 10px;
+        border-radius: 20px;
+        padding-left:20px;
     }
 
     .left-col{
         display: flex;
+        flex-direction: column;
         width: 70%;
         border-radius: 12px;
         gap: 10px;
@@ -70,12 +71,16 @@
         border-radius: 12px;
         display: flex;
         flex-direction: column;
-        gap: 20px;
+        gap: 25px;
         color: #AF9C7A;
         padding-top: 20px;
         padding-left: 20px;
         padding-right: 20px;
         font-family: 'Gilroy-Heavy', sans-serif;
+    }
+
+    .projects h2{
+        font-family: 'Gilroy-Regular', sans-serif;
     }
 
     .pj-div{
@@ -125,10 +130,13 @@
         color: #AF9C7A;
     }
 
-
     /* ---------------right-side-begins-from-here-------------------------------------- */
-
     
+    .lft-box-contanier{
+        display: flex;
+        gap: 10px;
+    }
+
     .lft-box-one{
         font-size: 28px;
         background-color: #414A39;
@@ -138,16 +146,60 @@
     }
     .flower-img{
         text-align: end;
+        padding: 20px;
     }
 
     .lft-box-one h3{
         padding: 20px;
     }
 
-    .lft-box-one img{
-        padding: 20px 20px 20px 20px;
-    }
-
     .profile img{
         width: 200px;
+    }
+
+    .light-highlight{
+        font-weight: 100;
+    }
+
+    .lft-box-contanier2{
+        display: flex;
+        gap: 10px;
+    }
+
+    .lft-box-two{
+        background-color: #414A39;
+        color: #AF9C7A;
+        border-radius: 12px;
+        font-family: 'Gilroy-Light', sans-serif;
+    }
+
+    .lft-box-two h3{
+        padding: 20px;
+    }
+
+    .circle-icon{
+        text-align: left;
+        padding: 20px;
+    }
+
+    .contact h6{
+        padding-bottom: 50px;
+        font-size: 20px;
+    }
+
+    .contact h2{
+        font-family: 'Gilroy-Bold', sans-serif;
+    }
+
+    .contact i{
+        padding-left: 100px;
+    }
+
+    .contact{
+        display: flex;
+        flex-direction: column;
+        padding: 20px;
+        border-radius: 12px;
+        color: #414A39;
+        background-color: #9A744D ;
     }
