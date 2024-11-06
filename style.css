@@ -41,6 +41,10 @@
         cursor: pointer;
     }
 
+    .nav-options a{
+        text-decoration: none;
+        color: #AF9C7A;
+    }
 
     /* ------------------nav-ends-here----------------- */
 
@@ -107,6 +111,10 @@
         object-fit: cover;
         border-radius: 12px;
         align-items: center;   
+    }
+
+    .projects a{
+        text-decoration:none;
     }
 
     .links{
@@ -187,6 +195,11 @@
         padding: 20px;
     }
 
+    .popup-with-zoom-anim{
+        text-decoration: none;
+        color: #414A39;
+    }
+
     .contact h6{
         padding-bottom: 50px;
         font-size: 20px;
@@ -212,4 +225,81 @@
 
     .contact:hover{
         background-color:#9a744de2;
+    }
+
+
+    /* --------------Contact-form------------------------------ */
+
+    .contact-form {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh;
+    }
+    
+    .form-content {
+        background-color: #414A39;
+        color: #AF9C7A;
+        border-radius: 8px;
+        padding: 20px;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        width: 400px;
+        max-width: 600px;
+    }
+
+    .form-content h2{
+        padding-bottom: 20px;
+        text-align: center;
+    }
+
+
+    .form-content label {
+        font-size: 1.1em;
+        margin-bottom: 14px;
+        display: block;
+    }
+    
+    .form-content input{
+        width: 100%;
+        border-radius: 4px;
+        border: 1px solid #AF9C7A;
+        margin-bottom: 16px;
+        padding-left: 5px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        background-color: #F9F9F9;
+    }
+    
+    .form-content textarea {
+        width: 100%;
+        border-radius: 4px;
+        border: 1px solid #AF9C7A;
+        margin-bottom: 16px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        padding-left: 5px;
+        resize: vertical;
+        height: 150px;
+        background-color: #F9F9F9;
+    }
+    
+    .btn{
+        text-align: center;
+    }
+    
+    .form-content button {
+        background-color: #AF9C7A;
+        color: #414A39;
+        padding: 12px 15px;
+        border: none;
+        border-radius: 4px;
+        font-size: 1rem;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+    }
+    
+    .form-content button:hover {
+        background-color: #414A39;
+        color: #AF9C7A;
+        border: 1px solid rgba(255, 255, 255, 0.402);
     }
