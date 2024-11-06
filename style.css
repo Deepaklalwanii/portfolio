@@ -7,6 +7,7 @@
         background-color: #DAC2A6;
     }
 
+    
     .bold-highlight{
         font-weight: bold;
     }
@@ -46,8 +47,9 @@
     .hero{
         display: flex;
         gap: 10px;
+        justify-content: space-between;
         border-radius: 20px;
-        padding-left:20px;
+        padding: 0 15px 0 15px;
     }
 
     .left-col{
@@ -73,10 +75,13 @@
         flex-direction: column;
         gap: 25px;
         color: #AF9C7A;
-        padding-top: 20px;
-        padding-left: 20px;
-        padding-right: 20px;
+       padding: 20px 40px 0 40px;
         font-family: 'Gilroy-Heavy', sans-serif;
+    }
+
+    .projects a{
+        list-style: none;
+        color: #AF9C7A;
     }
 
     .projects h2{
@@ -202,4 +207,9 @@
         border-radius: 12px;
         color: #414A39;
         background-color: #9A744D ;
+        cursor: pointer;
+    }
+
+    .contact:hover{
+        background-color:#9a744de2;
     }
