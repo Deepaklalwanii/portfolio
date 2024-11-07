@@ -22,9 +22,10 @@
                 </div>
                 <div class="nav-options">
                     <ul>
-                        <li><a href="#">PROJECTS</a></li>
-                        <li><a href="#">ABOUT</a></li>
-                        <li><a href="#contact-popup" class="popup-with-zoom-anim">CONTACT</a></li>
+                        <li><a href="#">Resume <i style="padding-left: 5px;" class="bi bi-download"></i></a></li>
+                        <li class="glow" data-box="project" onclick="showData(this)">PROJECTS</li>
+                        <li class="glow" data-box="about" onclick="showData(this)"> ABOUT</li>
+                        <li class="glow" data-box="contact"><a href="#contact-popup" class="popup-with-zoom-anim">CONTACT</a></li>
                     </ul>
                 </div>
             </div>
@@ -67,10 +68,10 @@
                             <img src="images/projects.jpg" alt="Project Preview">
                         </div>
                         <div class="pj-div">
-                            <a href="#"><h3>whitepace saas</h3></a>
+                            <a href="#"><h3>Whitepace saas</h3></a>
                         </div>
                         <div class="pj-div">
-                            <a href="#"><h3>Rj-international</h3></a>
+                            <a href="#"><h3>Rj international</h3></a>
                         </div>
                         <div class="pj-div">
                             <a href="#"><h3>Criclive</h3></a>
@@ -110,7 +111,13 @@
                 </form>
             </section>
         </div>
+    </section>
+    <section class="porjects-popup">
+        <div class="container">
+            <div class="whitepace">
 
+            </div>
+        </div>
     </section>
 
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
@@ -138,5 +145,15 @@
             });
         });
     </script>
+    <script src="script.js"></script>
+    <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-LPZQZDMND7"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-LPZQZDMND7');
+</script>
 </body>
 </html>

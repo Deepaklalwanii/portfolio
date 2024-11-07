@@ -12,6 +12,10 @@
         width: 1250px;
     }
 
+    .background-glow {
+        box-shadow: 0 0 15px rgb(158, 47, 255); 
+        transition: box-shadow 0.3s ease-in-out;
+    }
     
     .bold-highlight{
         font-weight: bold;
@@ -26,8 +30,14 @@
         justify-content: space-between;
         align-items: center;
     }
-    .nav-wrapper{
 
+    .cv{
+        font-family: 'Gilroy-Light', sans-serif;
+        font-size: 18px;
+        cursor: pointer;
+    }
+
+    .nav-wrapper{
         align-items: center;
         margin: 10px;
         background-color: #414A39;
@@ -307,4 +317,8 @@
         background-color: #414A39;
         color: #AF9C7A;
         border: 1px solid rgba(255, 255, 255, 0.402);
+    }
+
+    .mfp-close-btn-in .mfp-close {
+        color: #fff !important;
     }
