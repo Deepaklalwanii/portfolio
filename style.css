@@ -199,6 +199,9 @@
 
     .profile img{
         width: 200px;
+        height: 100%;
+        object-fit: cover;
+        border-radius: 12px;
     }
 
     .light-highlight{
@@ -338,6 +341,77 @@
     .mfp-close-btn-in .mfp-close {
         color: #fff !important;
     }
+
+/* ----------projects-popup-------------------- */
+
+.projects-container{
+    display: none;
+}
+
+
+
+
+
+    .whitepace img{
+        width: 400px;
+    }
+
+    .whitepace{
+        width: 400px;
+        padding: 10px;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        background-color: #043873;
+        color: #FFF;
+        border-radius: 12px;
+    }
+
+    .whitepace-btn{
+        display: flex;
+        flex-direction: row;
+        gap: 20px;
+    }
+
+    .whitepace-btn button{
+        width: 100px;
+        height: 40px;
+        border: none;
+        cursor: pointer;
+        border-radius: 8px;
+        background-color: #4f9cf9;
+        color: #fff;
+    }
+
+    .rj-international img{
+        width: 400px;
+    }
+
+    .rj-international{
+        background-color: #f7c600;
+        color: #fff;
+        border-radius: 12px;
+        padding: 10px;
+        width: 400px;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .rj-international-btn{
+        display: flex;
+        gap: 20px;
+    }
+
+    .rj-international button{
+        width: 100px;
+        height: 40px;
+        border-radius: 8px;
+        background-color: #ffffff6a;
+        color: #000;
+        border: none;
+    }
+
 
     /* --------------Responsive-starts-from-here-------------------- */
 
