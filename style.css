@@ -344,13 +344,11 @@
 
 /* ----------projects-popup-------------------- */
 
+
 .projects-container{
     display: none;
+    
 }
-
-
-
-
 
     .whitepace img{
         width: 400px;
@@ -412,6 +410,34 @@
         border: none;
     }
 
+    .Guessing-game img{
+        width: 400px;
+    }
+
+    .Guessing-game{
+        width: 400px;
+        padding: 10px;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        background-color: #9b836f;
+        color: #fff;
+        border-radius: 12px;
+    }
+
+    .Guessing-game button{
+        width: 100px;
+        height: 40px;
+        border-radius: 8px;
+        border: none;
+        background-color: #ffffff7b;
+        color: #000;
+    }
+
+    .guessing-btn{
+        display: flex;
+        gap: 20px;
+    }
 
     /* --------------Responsive-starts-from-here-------------------- */
 
