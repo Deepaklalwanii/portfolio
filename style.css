@@ -46,6 +46,10 @@
         padding: 20px;
     }
 
+    .hamburger{
+        display: none;
+    }
+
     .nav-options ul{
         display: flex;
         gap: 50px;
@@ -439,12 +443,17 @@
         display: none;
     }
     /* --------------Responsive-starts-from-here-------------------- */
-    @media (max-width: 768px) {
+    @media (max-width: 931px) {
         .site-wrap {
             width: 100%;
             padding: 10px;
         }
+
+        .hamburger{
+            display: block;
+        }
         .nav-options ul {
+            display: none;
             flex-direction: column;
             gap: 10px;
         }
@@ -469,6 +478,10 @@
             flex-direction: column;
             gap: 10px;
         }
+        .hamburger{
+            display: block;
+        }
+    
         .hero {
             flex-direction: column;
         }
