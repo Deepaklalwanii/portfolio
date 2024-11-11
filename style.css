@@ -459,3 +459,35 @@
         }
     }
     
+    @media (max-width: 480px) {
+        .site-wrap {
+            width: 100%;
+            padding: 10px;
+        }
+        .nav-options ul {
+            display: none;
+            flex-direction: column;
+            gap: 10px;
+        }
+        .hero {
+            flex-direction: column;
+        }
+        .lft-box-contanier{
+            display: flex;
+            flex-direction: column-reverse;
+            gap: 10px;
+        }
+        .lft-box-contanier2{
+            display: flex;
+            flex-direction: column;
+        }
+        .profile{
+        text-align: center;
+        }
+        .left-col, .right-col {
+            width: 100%;
+        }
+        .projects, .links {
+            padding: 20px;
+        }
+    }
