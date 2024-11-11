@@ -2,6 +2,8 @@ window.addEventListener('DOMContentLoaded', function () {
     const to_glow = document.querySelectorAll('.glow');  
     const projectSection = document.querySelector('.projects');
     const aboutHeader = document.querySelector('.lft-box-two');
+  
+
 
     
     
@@ -27,9 +29,18 @@ window.addEventListener('DOMContentLoaded', function () {
 
     }
 
+var elements = document.getElementsByClassName('popup-project');
+
+elements.addEventListener('click', function(){
+  if(this.classList.contains('whitepace')){
+    document.querySelector('.display').style.display = 'block';
+  }
+
+  
 
 
+});
 
 
-  });
+});
   

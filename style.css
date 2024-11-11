@@ -100,7 +100,7 @@
         border-radius: 12px;
         display: flex;
         flex-direction: column;
-        gap: 25px;
+        gap: 24px;
         color: #AF9C7A;
         padding: 20px 40px 0 40px;
         font-family: 'Gilroy-Heavy', sans-serif;
@@ -345,12 +345,8 @@
 /* ----------projects-popup-------------------- */
 
 
-.projects-container{
-    display: none;
-    
-}
 
-    .whitepace img{
+.whitepace img{
         width: 400px;
     }
 
@@ -380,11 +376,11 @@
         background-color: #4f9cf9;
         color: #fff;
     }
-
+    
     .rj-international img{
         width: 400px;
     }
-
+    
     .rj-international{
         background-color: #f7c600;
         color: #fff;
@@ -400,7 +396,7 @@
         display: flex;
         gap: 20px;
     }
-
+    
     .rj-international button{
         width: 100px;
         height: 40px;
@@ -410,11 +406,11 @@
         border: none;
     }
 
-    .Guessing-game img{
+    .guessing-game img{
         width: 400px;
     }
-
-    .Guessing-game{
+    
+    .guessing-game{
         width: 400px;
         padding: 10px;
         display: flex;
@@ -424,8 +420,8 @@
         color: #fff;
         border-radius: 12px;
     }
-
-    .Guessing-game button{
+    
+    .guessing-game button{
         width: 100px;
         height: 40px;
         border-radius: 8px;
@@ -433,14 +429,33 @@
         background-color: #ffffff7b;
         color: #000;
     }
-
+    
     .guessing-btn{
         display: flex;
         gap: 20px;
     }
-
+    
+    .display{
+        display: none;
+    }
     /* --------------Responsive-starts-from-here-------------------- */
-
-
-
-
+    @media (max-width: 768px) {
+        .site-wrap {
+            width: 100%;
+            padding: 10px;
+        }
+        .nav-options ul {
+            flex-direction: column;
+            gap: 10px;
+        }
+        .hero {
+            flex-direction: column;
+        }
+        .left-col, .right-col {
+            width: 100%;
+        }
+        .projects, .links {
+            padding: 20px;
+        }
+    }
+    

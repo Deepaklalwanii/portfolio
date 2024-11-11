@@ -22,7 +22,7 @@
                 </div>
                 <div class="nav-options">
                     <ul>
-                        <li><a href="#">Resume<i style="padding-left: 5px;" class="bi bi-download"></i></a></li>
+                        <li><a href="https://github.com/Deepaklalwanii/Resume/blob/main/My%20Resume.pdf">Resume<i style="padding-left: 5px;" class="bi bi-download"></i></a></li>
                         <li class="glow" data-box="project" onclick="showglow(this)">PROJECTS</li>
                         <li class="glow" data-box="about" onclick="showglow(this)"> ABOUT</li>
                         <li class="glow" data-box="contact"><a href="#contact-popup" class="popup-with-zoom-anim">CONTACT</a></li>
@@ -67,16 +67,16 @@
                         <div class="pj-img">
                             <img draggable="false" src="images/projects.jpg" alt="Project Preview">
                         </div>
-                        <div class="popup-project" data-link="Whitepace">
+                        <div class="popup-project" data-project="Whitepace" show_project()>
                             <a href="#"><h3>Whitepace saas</h3></a>
                         </div>
-                        <div class="popup-project" data-link="Rj">
+                        <div class="popup-project" data-project="Rj" show_project()>
                             <a href="#"><h3>Rj international</h3></a>
                         </div>
-                        <div class="popup-project" data-link="Guessing">
+                        <div class="popup-project" data-project="Guessing" show_project()>
                             <a href="#"><h3>Guessing Game</h3></a>
                         </div>
-                        <div style="border-bottom: none;" class="popup-project" data-link="Criclive">
+                        <div style="border-bottom: none;" class="popup-project" data-project="Criclive" show_project()>
                             <a href="#"><h3>Criclive</h3></a>
                         </div>
                     </div>
@@ -114,7 +114,7 @@
     </section>
     <section class="porjects-popup">
         <div class="projects-container">
-            <div data-="" class="whitepace">
+            <div class="whitepace display">
                 <img src="images/whitepace.png">
                 <h3>Whitepace</h3>
                 <p>This SaaS website template is built using HTML & CSS It seamlessly combines style and functionality to create an engaging user experience. Enhance your online presence with a design that not only looks great but also ensures ease of use and smooth navigation for your users.   </p>
@@ -124,7 +124,7 @@
                     <button class="btn-close">Close</button>
                 </div>
             </div>
-            <div class="rj-international">
+            <div class="rj-international display">
                 <img src="images/rj-international.png">
                 <h3>Rj International</h3>
                 <p>I created a website for RJ International, a freight forwarding company. The site showcases the company's services and operations, offering a professional online presence. I developed the website using HTML, CSS, and JavaScript, and implemented an SMTP contact form, enabling visitors to directly send messages to the client’s email. This allows seamless communication between the company and potential clients.</p>
@@ -134,7 +134,7 @@
                     <button class="rj-close">Close</button>
                 </div>
             </div>
-            <div class="Guessing-game">
+            <div class="guessing-game display">
                 <img src="images/guessing.png">
                 <h3>Guessing Game</h3>
                 <p>I created an interactive Number Guessing Game where players have 5 attempts to guess a randomly generated number. For each correct guess, the player earns 1 point, while the computer earns a point for each incorrect guess. The current score is displayed on the scoreboard in real time, allowing players to track their progress. The game provides feedback after each guess, indicating whether the guess is too high, too low, or correct. Built using HTML, CSS, and JavaScript, this project showcases my ability to develop engaging, interactive web applications with dynamic functionality and real-time updates.</p>
