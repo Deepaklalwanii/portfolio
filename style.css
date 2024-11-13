@@ -470,6 +470,12 @@
             margin-left: auto;
             display: flex;
         }
+        .hamburger .bar {
+            width: 30px;
+            height: 4px;
+            background-color: #AF9C7A;
+            border-radius: 10px;
+        }
         .nav-options ul {
             display: none;
             margin-top: 10px;
@@ -523,7 +529,15 @@
         }
         .hamburger{
             margin-left: auto;
+            /* display: block; */
+        }
+
+        .hamburger .bar {
             display: block;
+            width: 30px;
+            height: 4px;
+            background-color: #AF9C7A;
+            border-radius: 10px;
         }
     
         .hero {
