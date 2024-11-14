@@ -10,6 +10,7 @@
     .site-wrap{
         margin: 0 auto;
         width: 100%;
+        padding-bottom: 10px;
     }
 
     .background-glow {
@@ -529,11 +530,9 @@
         }
         .hamburger{
             margin-left: auto;
-            /* display: block; */
         }
 
         .hamburger .bar {
-            display: block;
             width: 30px;
             height: 4px;
             background-color: #AF9C7A;
@@ -562,4 +561,5 @@
         .projects, .links {
             padding: 20px;
         }
+        
     }
