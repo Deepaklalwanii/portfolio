@@ -6,7 +6,6 @@
 
     html {
         scroll-behavior: smooth;
-        scroll-behavior: smooth;
     }
 
     body{
@@ -473,6 +472,10 @@
             width: 100%;
         }
 
+        html {
+            scroll-behavior: smooth;
+        }
+
         .hamburger{
             margin-left: auto;
             display: flex;
@@ -528,6 +531,10 @@
         .site-wrap {
             width: 100%;
         }
+        html {
+            scroll-behavior: smooth;
+        }
+        
         .nav-options ul {
             padding: 0;
             display: none;
