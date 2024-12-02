@@ -1,12 +1,10 @@
+//portfolio
 window.addEventListener('DOMContentLoaded', function () {
     const to_glow = document.querySelectorAll('.glow');  
     const projectSection = document.querySelector('.projects');
     const aboutHeader = document.querySelector('.lft-box-two');
   
-
-
-    
-    
+//to glow option which user can select
     to_glow.forEach(function (element) {
       element.addEventListener('click', function () {
         showglow(element);
